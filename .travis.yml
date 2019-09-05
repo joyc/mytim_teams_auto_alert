@@ -1,0 +1,14 @@
+language: python
+sudo: enabled
+notifications:
+  email:
+    recipients:
+      - rockbee@gmail.com
+    on_success: change # default: change
+    on_failure: always # default: always
+python:
+  - 3.7
+before_install:
+  - pip install -r requirements.txt
+script:
+  - python3 mytim.py

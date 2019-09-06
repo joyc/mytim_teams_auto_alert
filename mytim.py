@@ -55,8 +55,8 @@ def weekday_job(x, msg, t=None):
 
 
 def schedule_set():
-    weekday_job(push_mytim_msg, MsgContent.content_10, '10:00')
-    weekday_job(push_mytim_msg, MsgContent.content_17, '17:30')
+    weekday_job(push_mytim_msg, MsgContent.content_10, '11:20')
+    weekday_job(push_mytim_msg, MsgContent.content_17, '11:30')
 
 
 def main():
